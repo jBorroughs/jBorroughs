@@ -1,0 +1,11 @@
+name: Workflo
+
+#Trigger the workflow
+push:
+  branches: {main}
+pull_request:
+  branches: {main , jb , develop}
+
+#workflow manually
+workflow_dispatch:
+  
